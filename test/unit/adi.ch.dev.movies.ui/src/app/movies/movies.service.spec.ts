@@ -1,13 +1,10 @@
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 import { environment } from 'src/environments/environment';
-import { Movie } from '../../api/movies/movies-single.json';
+import { Movies } from '../../api/movies/movies-list.json';
 import { MoviesService } from './movies.service';
 
-const moviesToUse = [
-  { title: 'Interstellar' } as Movie,
-  { title: 'The Green Book' } as Movie,
-  { title: 'Dark Knight' } as Movie
+const moviesToUse = [ Movies
 ];
 
 describe('MoviesService', () => {
@@ -29,7 +26,7 @@ describe('MoviesService', () => {
   });
 
   it('should return the favorite movies from the backend', () => {
-    let result: Movie[] = [];
+    let result: any ;
     serviceUnderTest.getFavoriteMovies().subscribe(data => {
       result = data;
     });

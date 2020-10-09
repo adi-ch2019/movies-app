@@ -5,7 +5,9 @@
     "outDir": "./out-tsc/app",
     "types": [],
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+        "allowJs": true
   },
   "files": [
     "src/main.ts",

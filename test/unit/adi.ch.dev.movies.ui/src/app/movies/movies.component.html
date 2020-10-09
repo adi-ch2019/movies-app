@@ -1,0 +1,11 @@
+<h1>Favorite movies</h1>
+
+<ng-container *ngIf="(favoriteMovies$ | async); let favoriteMovies">
+  <div class="movie" *ngFor="let movie of favoriteMovies">
+    {{ movie.title }}
+  </div>
+</ng-container>
+
+<div class="error" *ngIf="error">
+  {{ error }}
+</div>

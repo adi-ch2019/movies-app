@@ -1,4 +1,4 @@
-{ "Movie":[{
+{
          "Language": "ENGLISH",
          "Location": "DELHI",
          "Plot": "Twoimprisonedmenbondoveranumberofyears,findingsolaceandeventualredemptionthroughactsofcommondecency.",
@@ -16,5 +16,4 @@
          "imdbID": "tt0111161",
          "listingType": "NOW_SHOWING",
          "imdbRating": "9.2"
-        }]
         }

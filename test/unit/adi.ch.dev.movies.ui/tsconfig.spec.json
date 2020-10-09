@@ -7,7 +7,9 @@
       "jasmine"
     ],
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+        "allowJs": true
   },
   "files": [
     "src/test.ts",
