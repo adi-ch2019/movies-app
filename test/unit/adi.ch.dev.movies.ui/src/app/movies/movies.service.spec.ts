@@ -59,7 +59,7 @@ describe('MoviesService', () => {
   });
 
   it('should return the list of favorite movies if the backend returns an error 2 times and the succeds', () => {
-    let favoriteMovies: Movie[] = [];
+    let favoriteMovies: any;
     serviceUnderTest.getFavoriteMovies().subscribe(data => {
       favoriteMovies = data;
     });
