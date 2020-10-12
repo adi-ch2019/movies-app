@@ -1,1 +1,54 @@
-<p>movies works!</p>
+<h1>Now Showing!!</h1>
+
+<p *ngIf="!movies"><b>Loading...</b></p>
+<div class='card'>
+  <div class='table-responsive'>
+    <table class="table table-striped" *ngIf="movies">
+      <thead>
+          <tr>
+              <th>Language</th>
+              <th>Location</th>
+              <th>Plot</th>
+              <th>Poster</th>
+              <th>Title</th>
+              <th>imdbID</th>
+              <th>listingType</th>
+              <th>imdbRating</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let movie of movies">
+              <td>{{movie.language}}</td>
+              <td>{{movie.location}}</td>
+              <td>{{movie.plot | slice: 0:20}}...</td>
+              <td>{{movie.poster}}</td>
+              <td>{{movie.title}}</td>
+              <td>{{movie.imdbID}}</td>
+              <td>{{movie.listingType}}</td>
+              <td>{{movie.imdbRating}}</td>
+                 <td>
+                  <button type="button"
+                      class="btn btn-default btn-sm"
+                      (click)="showBook(book.id)">
+                      Show
+                  </button>
+                  <button type="button"
+                      class="btn btn-success btn-sm"
+                      (click)="updateBook(book.id)">
+                      Update
+                  </button>
+                  <button type="button"
+                      class="btn btn-danger btn-sm"
+                      (click)="deleteBook(book.id)">
+                      Delete
+                  </button>
+              </td>
+          </tr>
+
+      </tbody>
+      </table>
+  </div>
+</div>
+
+
