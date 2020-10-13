@@ -5,7 +5,11 @@
     "outDir": "./out-tsc/spec",
     "types": [
       "jasmine"
-    ]
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+        "allowJs": true
   },
   "files": [
     "src/test.ts",

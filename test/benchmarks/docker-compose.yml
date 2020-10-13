@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  adich.dev.movies.api:
+    image: ${DOCKER_REGISTRY-}adichdevmoviesapi
+    build:
+      context: .
+      dockerfile: Movies-Backend/adich.dev.movies.api/Dockerfile
+      networks: store-net  
+
+  adich.dev.movies.ui:
+      image: ${DOCKER_REGISTRY-}adichdevmoviesui
+      depends_on: ${DOCKER_REGISTRY-}adichdevmoviesapi
+    build:
+      context: .
+      dockerfile: Movies-Frontend/adich.dev.movies.ui/Dockerfile
+      networks: store-net  
+
+networks: store-net
+    

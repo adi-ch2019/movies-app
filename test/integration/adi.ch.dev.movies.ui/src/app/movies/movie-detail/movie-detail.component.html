@@ -1,0 +1,86 @@
+<div class='card'
+    >
+  <div class='card-header'>
+    {{pageTitle + ': ' + movie?.title}}
+  </div>
+
+  <div class='card-body'>
+    <div class='row'>
+      <div class='col-md-8'>
+        <div class='row'>
+          <div class='col-md-4'>Title:</div>
+          <div class='col-md-8'>{{movie?.title}}</div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-4'>Plot:</div>
+          <div class='col-md-8'>{{movie?.plot}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Sound Effects:</div>
+          <div class='col-md-8'>{{movie?.soundeffects}}</div>
+          <div class='col-md-8'>{{movie?.soundeffects}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Stills:</div>
+          <table style="padding: 10 10 10 10;">
+            <tbody>
+              <td>
+                <div class='col-md-8'>
+                  <img
+                         [src]='movie?.stills[0]'
+                         [title]='movie?.title'
+                         [style.width.px]='50'
+                         [style.margin.px]='2'>
+                </div>
+              </td>
+              <td>
+                <div class='col-md-8'>
+                  <img
+                         [src]='movie?.stills[1]'
+                         [title]='movie?.title'
+                         [style.width.px]='50'
+                         [style.margin.px]='2'>
+                </div>
+              </td>
+              <td>
+                <div class='col-md-8'>
+                  <img
+                  [src]='movie?.stills[2]'
+                  [title]='movie?.title'
+                  [style.width.px]='50'
+                  [style.margin.px]='2'>
+                </div>
+              </td>
+            </tbody>
+          </table>
+
+
+
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>IMDB Rating:</div>
+          <div class='col-md-8'>
+           {{movie?.imdbRating}}
+          </div>
+        </div>
+      </div>
+
+      <div class='col-md-4'>
+        <img class='center-block img-responsive'
+             [style.width.px]='200'
+             [style.margin.px]='2'
+             [src]='movie?.poster'
+             [title]='movie?.title'>
+      </div>
+    </div>
+  </div>
+
+  <div class='card-footer'>
+    <button class='btn btn-outline-secondary'
+            (click)='onBack()'
+            style='width:80px'>
+      <i class='fa fa-chevron-left'></i> Back
+    </button>
+  </div>
+</div>

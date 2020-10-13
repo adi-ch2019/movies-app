@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  adich.dev.movies.api:
+    container_name: moviesapi-l-container
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6001:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+  adich.dev.movies.ui:
+    container_name: moviesui-l-container   
+    ports:
+      - "4200:80"
+   
