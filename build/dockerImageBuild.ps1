@@ -1,0 +1,2 @@
+docker  build --tag adityanaiduc/moviesapi --file src\Movies-Backend\adich.dev.movies.api\Dockerfile .
+docker  build --tag adityanaiduc/moviesui --file src\Movies-Frontend\adi.ch.dev.movies.ui\Dockerfile .

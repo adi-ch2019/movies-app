@@ -1,10 +1,10 @@
 # adi-ch-dev
 
-# TASK: 
+# Movies Application: 
 
-❖Create a web application to list movies available for a user. 
+❖To Run the app download the src folder. 
 
-❖User should be able to search through the movies using the titleand sort the result. 
+❖Open sln file. 
 
 ❖When a selection is made it should go to the details page and present all the information available for that movie (Plot, Ratings, Poster, Stills etc). The user should be able to go back to the main page as well.
  
