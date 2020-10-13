@@ -33,7 +33,10 @@ An ideal single page application contains only code that is responsible for user
 I decided to organize the server and client-side code in the same project to make it easy to run and to demo. This sample stills needs OAuth 2 authentication and additional logic to make it a production ready robust application
 
 ### Instructions
-The code is available in my [github](https://github.com/adi-ch2019/adi-ch-dev/tree/master). It is required to clone it.
+
+And Application Walkthrough is available in Wiki()
+
+
 #### Backend
 Visual Studio 2019
 Open the Visual Studio 2019 and double click the .csproj file
@@ -41,19 +44,7 @@ Visual Studio Code
 Open Folder to location "src\Movies-Backend\adich.dev.movies.api"
 Open Terminal and do a "dotnet run"
 
-## Application Walkthrough
 
-The purpose of the application login via Auth0, View "Now Showing" Movies and further details for the plot, stills, imdbrating and so on. 
-Screen by Sreen flow
-Home Page
- 
-
-Login
- 
-
-Movies List
- 
-Movies Detail
  
 ## Azure CI/CD Results
 Continuous integration and delivery deserves its own post. However, I wanted to show the basic steps to deploy an Angular single page application along with a .NET Core backend. The key is to use the VSTS Pipelines and include Node and npm install in the right order. The template will install the dependencies and also build the application using the production environment settings.  
