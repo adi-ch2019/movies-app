@@ -34,7 +34,7 @@ I decided to organize the server and client-side code in the same project to mak
 
 ### Instructions
 
-And Application Walkthrough is available in Wiki()
+And Application Walkthrough is available in Wiki(https://github.com/adi-ch2019/adi-ch-dev/wiki)
 
 
 #### Backend
@@ -55,7 +55,9 @@ Continuous integration and delivery deserves its own post. However, I wanted to 
  
 
 Initially 2-3 hours were spent on TDD on Both Angular and Backend
-We have the latest commits and progress on develop Branch 
+I have the latest commits and progress on develop Branch to track progress.
+
+In Master we have the last PR and Merge.
 
 
 
