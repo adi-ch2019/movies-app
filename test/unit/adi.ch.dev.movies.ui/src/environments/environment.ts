@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  favoriteUrl:"https://localhost:5001/api/Movies/SingleMovie/tt0111161"
+  // favoriteUrl:"https://localhost:5001/api/Movies/SingleMovie/tt0111161"
+  favoriteUrl:"https://localhost:5001/api/Movies/GetMovies"
 };
 
 /*

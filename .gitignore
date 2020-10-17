@@ -6,3 +6,12 @@
 /src/Movies-Frontend/adi.ch.dev.movies.ui/package-lock.json
 /src/Movies-Backend/adich.dev.movies.api/adich.dev.movies.api.csproj.user
 /test/unit/adich.dev.movies.api/adich.dev.movies.api/adich.dev.movies.api.csproj.user
+/src/.vs/adich.dev.movies
+/src/Movies-Backend/adich.dev.movies.api/obj/Debug/netcoreapp3.1
+/src/Movies-Backend/adich.dev.movies.api/obj
+/test/unit/adich.dev.movies.api/.vs/adich.dev.movies.api
+/test/unit/adich.dev.movies.api/adich.dev.movies.api/bin/Debug/netcoreapp3.1
+/test/unit/adich.dev.movies.api/adich.dev.movies.api/obj/Debug/netcoreapp3.1
+/test/unit/adich.dev.movies.api/adich.dev.movies.api/obj
+/test/unit/adich.dev.movies.api/adich.dev.movies.api.test/obj/Debug/netcoreapp3.1
+/test/unit/adich.dev.movies.api/adich.dev.movies.api.test/obj
