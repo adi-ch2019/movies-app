@@ -13,7 +13,7 @@ Also includes
 		(https://angular.io/guide/testing-components-basics)
 		(https://angular.io/guide/testing-code-coverage)
 
-The project was created with the [Visual Studio Code]
+The project was created with [Visual Studio Code]
 
 ### Why a .Net Core back-end? 
 
