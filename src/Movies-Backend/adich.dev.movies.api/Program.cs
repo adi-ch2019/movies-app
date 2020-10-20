@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace adich.dev.movies.api
 {
+
     public class Program
     {
         public static void Main(string[] args)
