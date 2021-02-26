@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movies-Frontend", "Movies-F
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "adi.ch.dev.movies.ui", "Movies-Frontend\adi.ch.dev.movies.ui\", "{87497C28-D566-493D-89F4-99BF1D3DCAEC}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_63482"
 		Debug.AspNetCompiler.PhysicalPath = "Movies-Frontend\adi.ch.dev.movies.ui\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63482\"

@@ -6,3 +6,5 @@
 /src/Movies-Frontend/adi.ch.dev.movies.ui/package-lock.json
 /src/Movies-Backend/adich.dev.movies.api/adich.dev.movies.api.csproj.user
 /test/unit/adich.dev.movies.api/adich.dev.movies.api/adich.dev.movies.api.csproj.user
+/src/Movies-Backend/adich.dev.movies.api/obj/Debug/net5.0
+/src/obj/Docker
